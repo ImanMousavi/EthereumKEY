@@ -22,5 +22,5 @@ func main() {
 		panic(err)
 	}
 	fmt.Printf("\naddress :\t %x", key.Address)
-	fmt.Printf("\n*** Key : \t %x", hexutil.Encode(privateKeyBytes)[2:])
+	fmt.Printf("\n*** 🎉 Key : \t %x", hexutil.Encode(privateKeyBytes)[2:])
 }
